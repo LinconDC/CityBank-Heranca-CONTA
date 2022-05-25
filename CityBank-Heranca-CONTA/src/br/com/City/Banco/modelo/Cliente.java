@@ -1,5 +1,11 @@
 package br.com.City.Banco.modelo;
 
+/**
+ *  Classe que representa um Cliente no CityBank
+ * @author Lincon
+ *
+ */
+
 public class Cliente {
 
     private String nome;

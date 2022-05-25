@@ -1,14 +1,15 @@
 package br.com.City.Banco.teste;
 
+import br.com.City.Banco.especial.ContaEspecial;
 import br.com.City.Banco.modelo.ContaCorrente;
 import br.com.City.Banco.modelo.ContaPoupanca;
 import br.com.City.Banco.modelo.SaldoInsuficienteException;
 
-
 public class TesteContas {
 
-	public static void main(String[] args) throws SaldoInsuficienteException{
-		//Full Qualified Name FQN
+	public static void main(String[] args) throws SaldoInsuficienteException {
+
+		// Full Qualified Name FQN
 		ContaCorrente cc = new ContaCorrente(111, 111);
 		cc.deposita(100.0);
 
