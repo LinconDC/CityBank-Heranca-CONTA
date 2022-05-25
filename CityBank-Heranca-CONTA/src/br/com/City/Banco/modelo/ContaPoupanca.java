@@ -1,4 +1,4 @@
-package modelo;
+package br.com.City.Banco.modelo;
 public class ContaPoupanca extends Conta {
 
 	public ContaPoupanca(int agencia, int numero) {

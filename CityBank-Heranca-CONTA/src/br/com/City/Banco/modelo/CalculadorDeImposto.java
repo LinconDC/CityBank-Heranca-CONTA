@@ -1,4 +1,4 @@
-package modelo;
+package br.com.City.Banco.modelo;
 
 public class CalculadorDeImposto {
 	
