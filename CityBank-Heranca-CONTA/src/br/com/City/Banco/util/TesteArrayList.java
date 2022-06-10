@@ -1,6 +1,7 @@
 package br.com.City.Banco.util;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import br.com.City.Banco.modelo.Cliente;
 import br.com.City.Banco.modelo.Conta;
@@ -11,9 +12,7 @@ public class TesteArrayList {
 	public static void main(String[] args) {
 
 		// Generics
-		ArrayList<Conta> lista = new ArrayList<Conta>();
-
-		ArrayList<String> nome = new ArrayList<String>();
+		List<Conta> lista = new ArrayList<Conta>();
 
 		Conta cc = new ContaCorrente(22, 11);
 		Cliente cliente = new Cliente();
