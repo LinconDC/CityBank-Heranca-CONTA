@@ -7,7 +7,7 @@ package br.com.City.Banco.modelo;
  *
  */
 
-public abstract class Conta extends Object{
+public abstract class Conta extends Object {
 
 	protected double saldo;
 	private int agencia;
@@ -98,9 +98,9 @@ public abstract class Conta extends Object{
 
 	@Override
 	public boolean equals(Object ref) {
-		
+
 		Conta outra = (Conta) ref;
-		
+
 		if (this.agencia != outra.agencia) {
 			return false;
 		}
