@@ -1,4 +1,4 @@
-package br.com.City.Banco.modelo;
+package br.com.bytebank.banco.modelo;
 
 public class GuardadorDeContas {
 	
@@ -19,8 +19,7 @@ public class GuardadorDeContas {
 		return this.posicaoLivre;
 	}
 
-	public Conta getReferencia(int posicao) {
-		return this.referencias[posicao];
+	public Conta getReferencia(int pos) {
+		return this.referencias[pos];
 	}
-
 }

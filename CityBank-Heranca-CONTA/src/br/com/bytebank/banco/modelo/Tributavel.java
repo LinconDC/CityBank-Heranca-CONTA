@@ -1,7 +1,6 @@
-package br.com.City.Banco.modelo;
+package br.com.bytebank.banco.modelo;
 
 public interface Tributavel {
 
 	double getValorImposto();
-	
 }

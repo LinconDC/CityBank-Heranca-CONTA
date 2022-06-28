@@ -1,15 +1,14 @@
-package br.com.City.Banco.teste;
+package br.com.bytebank.banco.test;
 
-import br.com.City.Banco.modelo.CalculadorDeImposto;
-import br.com.City.Banco.modelo.ContaCorrente;
-import br.com.City.Banco.modelo.SeguroDeVida;
+import br.com.bytebank.banco.modelo.CalculadorDeImposto;
+import br.com.bytebank.banco.modelo.ContaCorrente;
+import br.com.bytebank.banco.modelo.SeguroDeVida;
 
+//classe Teste
 public class TesteTributaveis {
 
 	public static void main(String[] args) {
-		
-
-		ContaCorrente cc = new ContaCorrente(222, 333);
+		ContaCorrente cc= new ContaCorrente(222, 333);
 		cc.deposita(100.0);
 		
 		SeguroDeVida seguro = new SeguroDeVida();
@@ -19,6 +18,7 @@ public class TesteTributaveis {
 		calc.registra(seguro);
 		
 		System.out.println(calc.getTotalImposto());
+
 	}
 
 }
